@@ -13,7 +13,7 @@ public class MovieDTO {
 
     private long id;
 
-    private String Title;
+    private String title;
 
     private LocalDateTime date;
 

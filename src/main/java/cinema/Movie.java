@@ -13,7 +13,7 @@ public class Movie {
 
     private long id;
 
-    private String Title;
+    private String title;
 
     private LocalDateTime date;
 
@@ -23,7 +23,7 @@ public class Movie {
 
     public Movie(long id, String title, LocalDateTime date, int maxReservation) {
         this.id = id;
-        Title = title;
+        this.title = title;
         this.date = date;
         this.maxReservation = maxReservation;
         freeSpaces = maxReservation;
